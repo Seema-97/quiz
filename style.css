@@ -1,0 +1,41 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+
+#root {
+    /* border:2px solid red; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    flex-wrap: wrap;
+}
+.card-container{
+    border:1px solid lightgray !important ;
+    width: 30% !important;
+    padding: 0  !important ; 
+}
+
+.display{
+    display:flex;
+    justify-content: center;
+    /* border:2px solid red; */
+    gap:20px;
+    margin-top:20px;
+}
+
+.display div{
+    border:1px solid gray;
+    padding:10px;
+    border-radius: 6px;
+}
